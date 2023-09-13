@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: #e3f9ff;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+.purple{
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 450px;
+    height: 450px;
+    background: white;
+    border-radius: 15px;
+    flex-direction: column;
+    box-shadow: 0 0 251px 10px black;
+}
+
+.profile-img {
+    .hide {
+        display: none;
+    }
+}
+
+.profile-img {
+    height: 290px;
+    width: 300px;
+    top: -40px;
+    position: relative;
+    border-radius: 100%;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    position: relative;
+    border-radius: 100%;
+}
+
+.card:hover {
+    height: 150vh;
+    cursor: pointer;
+    
+    .profile-img {
+        top: -210px;
+    }
+
+    .profile-img {
+        .hide {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
+    }
+}
+
+p {
+    margin-top: -10px;
+    width: 400px;
+}
+
+.icons {
+    flex-direction: row;
+    gap: 10px;
+    margin: 20px;
+}
+
+
+#icon {
+    font-size: 2rem;
+}
+
+.more {
+    margin: 10px;
+    padding: 10px;
+    background: rgb(221, 93, 93);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    width: 100px;
+}
+
+.more:hover {
+    cursor: pointer;
+    background: rgba(170, 35, 35, 0.8);
+}
